@@ -21,7 +21,7 @@ class Browser:
         self.browser.get(url)
 
     def close_browser(self):
-        self.browser.quit()  # Usa quit en lugar de close para cerrar completamente el navegador
+        self.browser.quit()  
 
     def scroll_until_end(self):
         last_height = self.browser.execute_script("return document.body.scrollHeight")
